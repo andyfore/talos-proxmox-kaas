@@ -26,7 +26,7 @@ data "talos_machine_configuration" "mc_1" {
             {
               token_id     = var.proxmox_token_id
               token_secret = var.proxmox_token_secret
-              url          = var.proxmox_host
+              url          = var.kvm_host
               region       = var.region
             },
           ]
@@ -36,7 +36,7 @@ data "talos_machine_configuration" "mc_1" {
             cluster-1 = {
               api_token_id     = var.proxmox_token_id
               api_token_secret = var.proxmox_token_secret
-              api_url          = var.proxmox_host
+              api_url          = var.kvm_host
               pool             = var.pool
             }
           }
@@ -72,7 +72,7 @@ data "talos_machine_configuration" "mc_2" {
             {
               token_id     = var.proxmox_token_id
               token_secret = var.proxmox_token_secret
-              url          = var.proxmox_host
+              url          = var.kvm_host
               region       = var.region
             },
           ]
@@ -82,7 +82,7 @@ data "talos_machine_configuration" "mc_2" {
             cluster-1 = {
               api_token_id     = var.proxmox_token_id
               api_token_secret = var.proxmox_token_secret
-              api_url          = var.proxmox_host
+              api_url          = var.kvm_host
               pool             = var.pool
             }
           }
@@ -118,7 +118,7 @@ data "talos_machine_configuration" "mc_3" {
             {
               token_id     = var.proxmox_token_id
               token_secret = var.proxmox_token_secret
-              url          = var.proxmox_host
+              url          = var.kvm_host
               region       = var.region
             },
           ]
@@ -128,7 +128,7 @@ data "talos_machine_configuration" "mc_3" {
             cluster-1 = {
               api_token_id     = var.proxmox_token_id
               api_token_secret = var.proxmox_token_secret
-              api_url          = var.proxmox_host
+              api_url          = var.kvm_host
               pool             = var.pool
             }
           }

@@ -44,22 +44,22 @@ variable "pool" {
 variable "cluster_endpoint" {
   description = "A name to provide for the Talos cluster"
   type        = string
-  default     = "https://api.domain.local:6443"
+  default     = "https://api.cluster.local.arfore.space:6443"
 }
 
 variable "talos_version" {
   description = "A name to provide for the Talos cluster"
   type        = string
-  default     = "v1.4.0"
+  default     = "v1.6.5"
 }
 
 variable "k8s_version" {
   description = "A name to provide for the Talos cluster"
   type        = string
-  default     = "v1.27.1"
+  default     = "v1.29.2"
 }
 
-variable "proxmox_host" {
+variable "kvm_host" {
   description = "Proxmox host"
   type        = string
   default     = "192.168.1.1"
